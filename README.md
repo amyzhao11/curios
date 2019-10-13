@@ -58,7 +58,7 @@ Googling conquer and the clue "elastic heart", we see that "conquer" is a lyric 
 
 
 <a href="https://people.smp.uq.edu.au/MichaelBulmer/stuff/curio.php?id=175">#175</a>:<br>
-Firstly I just tried taking the difference between each successive number which ended up yielding a decimals between 0.001 and 0.026. I took this as a sign that the differences between successive numbers corresponded to the alphabet.
+Firstly I just tried taking the difference between each successive number which ended up yielding decimals between 0.001 and 0.026. I took this as a sign that the differences between successive numbers corresponded to the alphabet.
 I wrote some Matlab code (curio175.m) which took the difference between successive numbers and converted them to characters. And I get the following output:<br>
 
 <pre>
