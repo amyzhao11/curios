@@ -1,5 +1,4 @@
 # curios
 
-This folder contains guides to the curios I have solved 
-<p>Hello. Do you want to visit the website <a href="http://www.google.com">Google</a>?<br />
-It's a good website! ;-)</p>
+This folder contains guides to the curios I have solved <a href="https://people.smp.uq.edu.au/MichaelBulmer/stuff/curio.php?id=172">#172</a>?<br />, <a href="https://people.smp.uq.edu.au/MichaelBulmer/stuff/curio.php?id=173">#173</a>?<br />, <a href="https://people.smp.uq.edu.au/MichaelBulmer/stuff/curio.php?id=175">#175</a>?<br />
+
