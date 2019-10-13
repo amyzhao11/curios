@@ -24,5 +24,5 @@ ox yt oc in af fe ct ss oc ia ld is ta nc eb
 0  0  1  0  0  0  1  <b>1</b>  1  1  0  1  1  1  0
 </pre>
 
-And voila: Our first 3 letters are D O N. Continuing on, we get D O N T B L A M E M E L O V E M A D E M E C R A Z Y <br>
+And voila: Our first 3 letters are D O N. Continuing on, we get D O N T B L A M E M E L O V E M A D E M E C R A Z Y ...<br>
 Googling this gives us the lyrics to Taylor Swift's song Your Love is My Drug which fits with the clue nicely.
