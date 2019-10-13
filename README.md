@@ -26,3 +26,43 @@ ox yt oc in af fe ct ss oc ia ld is ta nc eb
 
 And voila: Our first 3 letters are D O N. Continuing on, we get D O N T B L A M E M E L O V E M A D E M E C R A Z Y ...<br>
 Googling this gives us the lyrics to Taylor Swift's song Your Love is My Drug which fits with the clue nicely.
+
+<a href="https://people.smp.uq.edu.au/MichaelBulmer/stuff/curio.php?id=173">#173</a>:<br>
+My immediate thought for this puzzle was how the dots were either above or below the red line - which could refer to binary encoding. In addition, there were 35 dots (a factor of 5) which further points to a set of 5-bit number. 
+
+So the first step was just letting 0=under the line and 1=above the line. This led to the following set of binary numbers <br>
+<pre>
+1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 1 0 0 1 0 1 0 1 1 0 1 0 0 1 1 0 1 1
+</pre>
+
+The trouble with this is that we have no idea where each set of 5-bits start. So I wrote a Matlab script (curio173.m) to cycle through this array five times for each possible starting point. Then I converted the five arrays to decimals and then characters. This is the resultant output:
+<pre>
+    'YAB\UT['
+    '\PQNJZM'
+    '^HHWEMF'
+    'ODDKRVS'
+    'WRBEYKI'
+</pre>
+
+Not one to give up, I then took the binary inverse using <code> mod(a-1,2)</code> in case I allocated the 1s and 0s incorrectly.<br>
+Rerunning my script I get the following:
+<pre>
+    'F^]CJKD'
+    'CONQUER'
+    'AWWHZRY'
+    'P[[TMIL'
+    'HM]ZFTV'
+</pre>
+
+Googling conquer and the clue "elastic heart", we see that "conquer" is a lyric to Sia's Elastic Heart.
+
+
+<a href="https://people.smp.uq.edu.au/MichaelBulmer/stuff/curio.php?id=175">#175</a>:<br>
+Firstly I just tried taking the difference between each successive number which ended up yielding a decimals between 0.001 and 0.026. I took this as a sign that the differences between successive numbers corresponded to the alphabet.
+I wrote some Matlab code (curio175.m) which took the difference between successive numbers and converted them to characters. And I get the following output:<br>
+
+<pre>
+'WHENEVERYOUREGONECANTTURNBACKNOWIMHAUNTED'
+</pre>
+
+I googled these and they happen to be lyrics to Taylor Swift's Haunted - belonging to one of her more redeemable albums.
